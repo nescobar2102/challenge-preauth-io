@@ -44,17 +44,21 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+## API Endpoints
 
-## Run tests
+GET http://localhost:4000/game-01/find?M=2,5,8,14,0&N=10
 
-```bash
-# unit tests
-$ npm run test
+GET http://localhost:4000/gilded-rose/update-products
 
-# e2e tests
-$ npm run test:e2e
+# API Documentation (Swagger)
+This project implements Swagger to document and visualize the API. You can access the Swagger UI for the API documentation by visiting the following URL once the server is running:
 
-# test coverage
-$ npm run test:cov
-```
+Swagger API Documentation http://localhost:4000/api-challenge
+
+
+![Captura de pantalla 2024-11-12 100156](https://github.com/user-attachments/assets/ba1725b6-8fae-43e9-be87-83d74059e1c6)
+![Captura de pantalla 2024-11-12 100226](https://github.com/user-attachments/assets/43dfb50a-b2d1-4d1a-8841-9609278dfb1a)
+![Captura de pantalla 2024-11-12 100447](https://github.com/user-attachments/assets/a3fa141b-8717-4236-a4a7-685292865c2d)
+![Captura de pantalla 2024-11-12 100546](https://github.com/user-attachments/assets/f0375cfd-f9e9-4d26-8c50-a7df837da1b5)
+![Captura de pantalla 2024-11-12 101823](https://github.com/user-attachments/assets/d9e5525c-b97d-4658-8ca0-007f8aced12c)
 
